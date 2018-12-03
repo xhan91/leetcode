@@ -1,3 +1,5 @@
+#!/usr/local/bin/python3
+
 class Solution:
   def findMedianSortedArrays(self, nums1, nums2):
     l1 = len(nums1)

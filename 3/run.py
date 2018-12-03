@@ -1,3 +1,5 @@
+#!/usr/local/bin/python3
+
 class Solution:
   def lengthOfLongestSubstring(self, s):
     # max, l, r

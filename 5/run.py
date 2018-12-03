@@ -1,3 +1,5 @@
+#!/usr/local/bin/python3
+
 class Solution:
   def longestPalindrome(self, s):
     for i in range(len(s)):
