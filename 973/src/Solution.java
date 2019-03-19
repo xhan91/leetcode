@@ -13,8 +13,8 @@ class Solution {
         if (left >= right) return;
         int pivot = partition(points, left, right);
         if (pivot == K) return;
-        if (pivot < K) partition(points, pivot + 1, right);
-        if (pivot > K) partition(points, left, pivot - 1);
+        if (pivot < K) helper(points, K,pivot + 1, right);
+        if (pivot > K) helper(points, K, left, pivot - 1);
     }
 
     private int partition(int[][] points, int left, int right) {
